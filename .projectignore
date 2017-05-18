@@ -12,6 +12,3 @@ __pycache__/
 
 # Spyder stuff
 /.spyderproject
-
-/envs/
-/services/
