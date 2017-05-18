@@ -1,6 +1,6 @@
 Data Science Apps with Anaconda
 ===============================
-**PyCon 2017 Workshop, Portland OR**
+**[PyCon 2017 Workshop](https://us.pycon.org/2017/schedule/presentation/792/), Portland OR**
 <br>
 
 <center>
