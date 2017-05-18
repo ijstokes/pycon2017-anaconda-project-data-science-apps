@@ -1,0 +1,16 @@
+name: streaming_ohlc_data
+description: An example Bokeh application that displays streaming data.
+
+commands:
+  default:
+    bokeh_app: .
+
+packages:
+  - python=3.6
+  - bokeh=0.12.4
+  - numpy=1.12.0
+
+env_specs:
+  default:
+    channels: []
+    packages: []

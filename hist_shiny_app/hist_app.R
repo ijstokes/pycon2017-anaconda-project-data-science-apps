@@ -14,4 +14,4 @@ parsed_args <- parser$parse_args()
 port <- as.integer(parsed_args$anaconda_project_port)
 print(parsed_args)
 
-runApp(appDir = "hello", port = port, launch.browser = TRUE, quiet = FALSE, host = '127.0.0.1')
+runApp(appDir = "hist", port = port, launch.browser = TRUE, quiet = FALSE, host = '127.0.0.1')

@@ -1,9 +1,9 @@
-name: normal_distrition
+name: hist_shiny_app
 description: An example R Shiny app that displays the histogram of random normal distribution data set
 
 commands:
   default:
-    unix: Rscript normal_distribution_app.R
+    unix: Rscript hist_app.R
     supports_http_options: true
 
 channels:

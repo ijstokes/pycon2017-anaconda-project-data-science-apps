@@ -13,5 +13,6 @@ __pycache__/
 # Spyder stuff
 /.spyderproject
 
-*/envs/
-*/services/
+/envs/
+/services/
+markowitz.csv
