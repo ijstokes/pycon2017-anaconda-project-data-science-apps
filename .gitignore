@@ -1,5 +1,5 @@
 # project-local contains your personal configuration choices and state
-/anaconda-project-local.yml
+*/anaconda-project-local.yml
 
 # Files autocreated by Python
 __pycache__/
@@ -8,10 +8,11 @@ __pycache__/
 *.pyd
 
 # Notebook stuff
-/.ipynb_checkpoints
+*/.ipynb_checkpoints
 
 # Spyder stuff
 /.spyderproject
 
 */envs/
 */services/
+
