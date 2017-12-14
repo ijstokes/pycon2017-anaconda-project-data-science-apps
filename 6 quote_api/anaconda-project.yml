@@ -1,0 +1,18 @@
+name: quote_api
+description: A simple script with an API.
+
+commands:
+  default:
+    unix: python ${PROJECT_DIR}/quote.py
+    windows: python %PROJECT_DIR%\quote.py
+    supports_http_options: true
+
+channels: []
+packages: []
+
+env_specs:
+  anaconda44_py35:
+    channels: []
+    packages:
+      - python=3.5
+      - tornado=4.5.1
