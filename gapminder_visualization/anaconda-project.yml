@@ -11,13 +11,15 @@ downloads:
   GAPMINDER_LIFE_EXPECTANCY: https://s3.amazonaws.com/bokeh_data/gapminder_life_expectancy.csv
   GAPMINDER_REGIONS: https://s3.amazonaws.com/bokeh_data/gapminder_regions.csv
 
-packages:
-  - python=3.5
-  - bokeh=0.12.4
-  - tornado=4.4.2
-  - pandas=0.19.2
+channels: []
+packages: []
 
 env_specs:
-  default:
+  anaconda44_py35:
     channels: []
-    packages: []
+    packages:
+      - python=3.5
+      - bokeh=0.12.5
+      - tornado=4.5.1
+      - pandas=0.20.1
+      - ipykernel=4.6
