@@ -5,15 +5,24 @@ commands:
   default:
     notebook: markowitz.ipynb
 
-packages:
-  - python=3.6
-  - notebook=4.3.1
-  - bokeh=0.12.4
-  - tornado=4.4.2
-  - numpy=1.12.0
-  - pandas=0.19.2
+downloads:
+  MARKOWITZ:
+    url: http://pastebin.com/raw/BX9mBNhL
+    filename: markowitz.csv
+
+channels: []
+packages: []
 
 env_specs:
-  default:
-    packages: []
+  anaconda44_py35:
     channels: []
+    packages:
+      - python=3.5
+      - notebook=4.3.1
+      - bokeh=0.12.5
+      - tornado=4.5.1
+      - numpy=1.12.1
+      - pandas=0.20.1
+      - ipykernel=4.6
+      - r=3.3.2
+      - rpy2=2.8.5
