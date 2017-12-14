@@ -5,12 +5,15 @@ commands:
   default:
     bokeh_app: .
 
-packages:
-  - python=3.6
-  - bokeh=0.12.4
-  - numpy=1.12.0
+channels: []
+packages: []
 
 env_specs:
-  default:
+  ohlc_py35:
     channels: []
-    packages: []
+    packages:
+      - python=3.5
+      - bokeh=0.12.5
+      - tornado=4.5.1
+      - numpy=1.12.1
+      - ipykernel=4.6
